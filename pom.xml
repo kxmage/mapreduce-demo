@@ -118,6 +118,11 @@
                 </includes>
                 <filtering>false</filtering>
             </resource>
+            <resource>
+                <directory>${project.basedir}/config</directory>
+                <targetPath>${project.build.directory}/classes</targetPath>
+                <filtering>false</filtering>
+            </resource>
 	    </resources>
 		<plugins>
 			<plugin>
